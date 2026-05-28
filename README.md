@@ -1,3 +1,25 @@
+
+# =====================================================================
+# КОМАНДИ ЗА СТАРТИРАНЕ НА СИСТЕМАТА 
+# =====================================================================
+#
+# ----- ТЕРМИНАЛ 1 (СИМУЛАТОР): -----
+# cd /workspaces/vscode_ros2_workspace && source /opt/ros/humble/setup.bash && source install/setup.bash && ros2 run temp_control_system simulator
+#
+# ----- ТЕРМИНАЛ 2 (КОНТРОЛЕР): -----
+# cd /workspaces/vscode_ros2_workspace && source /opt/ros/humble/setup.bash && source install/setup.bash && ros2 run temp_control_system control
+#
+# =====================================================================
+
+
+
+
+
+
+
+
+
+
 # VSCode ROS2 Workspace Template
 
 This template will get you set up using ROS2 with VSCode as your IDE.
