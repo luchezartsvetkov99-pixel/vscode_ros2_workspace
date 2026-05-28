@@ -3,11 +3,14 @@
 # КОМАНДИ ЗА СТАРТИРАНЕ НА СИСТЕМАТА 
 # =====================================================================
 #
+# ----- ЗА СТАРТИРАНЕ ОТ НОВ КОМПЮТЪР ------
+# cd /workspaces/vscode_ros2_workspace && colcon build
+#
 # ----- ТЕРМИНАЛ 1 (СИМУЛАТОР): -----
-# cd /workspaces/vscode_ros2_workspace && source /opt/ros/humble/setup.bash && source install/setup.bash && ros2 run temp_control_system simulator
+# cd /workspaces/vscode_ros2_workspace && . install/setup.bash && ros2 run temp_control_system simulator
 #
 # ----- ТЕРМИНАЛ 2 (КОНТРОЛЕР): -----
-# cd /workspaces/vscode_ros2_workspace && source /opt/ros/humble/setup.bash && source install/setup.bash && ros2 run temp_control_system control
+# cd /workspaces/vscode_ros2_workspace && . install/setup.bash && ros2 run temp_control_system control
 #
 # =====================================================================
 
