@@ -17,7 +17,7 @@ class TemperatureSimulator(Node):
             10)
             
         self.timer = self.create_timer(1.0, self.timer_callback)
-        self.base_temperature = 30.0
+        self.base_temperature = 25.0
         self.cooling_on = False  # Флаг за състоянието на вентилатора
         self.get_logger().info('Обновеният температурен симулатор е ОНЛАЙН!')
 
